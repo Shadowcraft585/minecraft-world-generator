@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <WorldGenerator>
+        <worldName>custom_world</worldName>
+        <coordinates>49.115825,9.189166,49.153491,9.249388</coordinates>
+        <spawnX>670408</spawnX>
+        <spawnZ>5468113</spawnZ>
+    </WorldGenerator>
+
+    <HighwayLoader>
+        <defaultFloorHieght>3</defaultFloorHieght>
+        <defaultBuildingHeight>8</defaultBuildingHeight>
+    </HighwayLoader>
+
+    <CustomChunkGenerator>
+        <elevationFactor>2</elevationFactor>
+    </CustomChunkGenerator>
+
+    <ChestFillListener>
+        <foodChance>70</foodChance>
+        <suppliesChance>20</suppliesChance>
+        <toolChance>10</toolChance>
+    </ChestFillListener>
+
+    <ZombieMinigame>
+        <startingZombies>2</startingZombies>
+        <increasePerWave>1</increasePerWave>
+        <newWaveTimer>600</newWaveTimer>
+        <minSpawnBlockDistance>6</minSpawnBlockDistance>
+        <maxSpawnBlockDistance>18</maxSpawnBlockDistance>
+    </ZombieMinigame>
+
+    <Monopoly>
+        <startingMoney>5000</startingMoney>
+        <buildingMinPrice>100</buildingMinPrice>
+        <buildingMaxPrice>1000</buildingMaxPrice>
+        <buildingMinEarningPerSecond>1</buildingMinEarningPerSecond>
+        <buildingMaxEarningPerSecond>10</buildingMaxEarningPerSecond>
+    </Monopoly>
+</config>

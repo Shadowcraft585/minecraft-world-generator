@@ -1,0 +1,7 @@
+name: World-Generator-Plugin
+version: '1.0'
+main: io.github.Shadowcraft585.worldGenerator.WorldGenerator
+api-version: '1.21'
+description: Custom World Generator Example
+author: Shadowcraft585
+load: STARTUP
