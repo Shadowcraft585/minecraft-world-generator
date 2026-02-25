@@ -2,9 +2,9 @@
 <config>
     <WorldGenerator>
         <worldName>custom_world</worldName>
-        <coordinates>49.115825,9.189166,49.153491,9.249388</coordinates>
+        <coordinates>49.117226,9.191604,49.128375,9.213216</coordinates>
         <spawnX>670408</spawnX>
-        <spawnZ>5468113</spawnZ>
+        <spawnZ>-5468113</spawnZ>
     </WorldGenerator>
 
     <HighwayLoader>
@@ -36,5 +36,9 @@
         <buildingMaxPrice>1000</buildingMaxPrice>
         <buildingMinEarningPerSecond>1</buildingMinEarningPerSecond>
         <buildingMaxEarningPerSecond>10</buildingMaxEarningPerSecond>
+        <pricePerBlockPerFloor>20</pricePerBlockPerFloor>
+        <earningPerBlockPerFloorPerSecond>0.2</earningPerBlockPerFloorPerSecond>
+        <plusMinusValueRandomnessPercent>0.10</plusMinusValueRandomnessPercent>
+        <plusMinusEarningRandomnessPercent>0.10</plusMinusEarningRandomnessPercent>
     </Monopoly>
 </config>
