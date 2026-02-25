@@ -170,12 +170,6 @@ public final class WorldGenerator extends JavaPlugin implements Listener, Comman
                 }
             }
 
-            File flag = new File(getDataFolder(), "custom_world_generated.flag");
-            boolean alreadyGenerated = flag.exists();
-            if (alreadyGenerated) {
-                return;
-            }
-
             World existing = Bukkit.getWorld(worldName);
             if (existing != null) {
                 getLogger().info("World '" + worldName + "' already loaded.");
@@ -223,15 +217,6 @@ public final class WorldGenerator extends JavaPlugin implements Listener, Comman
                             Bukkit.createWorld(wc);
                             getLogger().info("Created world '" + worldName + "' with CustomChunkGenerator.");
 
-                            try {
-                                getDataFolder().mkdirs();
-                                File flagFile = new File(getDataFolder(), "custom_world_generated.flag");
-                                if (!flagFile.exists()) {
-                                    boolean ok = flagFile.createNewFile();
-                                }
-                            } catch (IOException ioe) {
-                                getLogger().warning("Failed to create generation flag: " + ioe.getMessage());
-                            }
                         } catch (IllegalStateException ise) {
                             getLogger().warning("createWorld not possible right now, retrying");
                             Bukkit.getScheduler().runTaskLater(this, () -> {
