@@ -15,10 +15,10 @@ Currently stopping server and restarting does not work. So to play this again, y
 
 To generate a specified location, change the "coordinates" variable in the "config.xml" in the run directory.
 How to choose correct coordinates:
-  -select any coordinate. (for example 50.631373, 10.919207)
-  -select another coordinate, this coordinate has to be to the left and above the previous coordinate. (for example 50.634721, 10.923499)
-  -put them into the coordinates variable in the "config.xml" in the run directory.
-  -remove all Spaces in between (for example <coordinates>50.631373,10.919207,50.634721,10.923499</coordinates>
+1. select any coordinate. (for example 50.631373, 10.919207)
+2. select another coordinate, this coordinate has to be to the left and above the previous coordinate. (for example 50.634721, 10.923499)
+3. put them into the coordinates variable in the "config.xml" in the run directory.
+4. remove all Spaces in between (for example <coordinates>50.631373,10.919207,50.634721,10.923499</coordinates>
 
 Variables in the config.xml can be changed however you want, but they have to remain in the correct format
 
