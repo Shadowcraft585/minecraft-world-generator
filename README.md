@@ -20,5 +20,7 @@ How to choose correct coordinates:
 3. put them into the coordinates variable in the "config.xml" in the run directory.
 4. remove all Spaces in between (for example <coordinates>50.631373,10.919207,50.634721,10.923499</coordinates>
 
+Dont seperate the two coordinates by more than a few kilometers, otherwise the server might take a long time or run out of heap space
+
 Variables in the config.xml can be changed however you want, but they have to remain in the correct format
 
