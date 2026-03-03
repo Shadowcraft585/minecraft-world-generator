@@ -3,7 +3,7 @@
 Step-by-step guide to run world generator
 
 1. Clone repo
-2. Run "gradle runServer" inside the world-generator directory to create run directory
+2. Run "./gradlew runServer" inside the world-generator directory to create run directory
 3. Copy config.xml from "world-generator/src/main/resources" into the newly created "run" directory
 4. Run "gradle runServer" once again
 5. Wait for the console to say "World-Generator-Plugin Created world 'custom_world' with CustomChunkGenerator."
