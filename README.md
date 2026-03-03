@@ -7,7 +7,7 @@ Step-by-step guide to run world generator
 3. Copy config.xml from "world-generator/src/main/resources" into the newly created "run" directory
 4. Run "gradle runServer" once again
 5. Wait for the console to say "World-Generator-Plugin Created world 'custom_world' with CustomChunkGenerator."
-6. Start Minecraft
+6. Start Minecraft (Version 1.21.4 required)
 7. Go to Multiplayer
 8. Type in "localhost" in direct connection and connect
 
